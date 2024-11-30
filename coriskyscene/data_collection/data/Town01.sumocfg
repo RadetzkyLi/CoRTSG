@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net/Town01_C.net.xml"/>
+        <route-files value="carlavtypes.rou.xml,rou/Town01_ped.rou.xml,rou/Town01_veh.rou.xml"/>
+        <!-- <route-files value="carlavtypes.rou.xml,rou/Town01_mini.rou.xml"/> -->
+    </input>
+
+    <gui_only>
+        <gui-settings-file value="viewsettings.xml"/>
+    </gui_only>
+
+    <processing>
+        <collision.action value="warn"/>
+		<lateral-resolution value="0.32"/>
+		<step-length value="0.05"/>
+    </processing>
+
+</configuration>

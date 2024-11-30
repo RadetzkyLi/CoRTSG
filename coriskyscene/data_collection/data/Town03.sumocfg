@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="net/Town03_C.net.xml"/>
+        <route-files value="carlavtypes.rou.xml,rou/Town03_ped.trips.xml,rou/Town03_veh.rou.xml"/>
+    </input>
+
+    <processing>
+        <collision.action value="warn"/>
+		<lateral-resolution value="0.25"/>
+		<step-length value="0.05"/>
+    </processing>
+
+</configuration>

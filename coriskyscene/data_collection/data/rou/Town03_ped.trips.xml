@@ -1,0 +1,350 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- generated on 2023-11-13 17:24:30.057422 by randomTrips.py v1_18_0+0000-03ecfdea036
+<configuration>
+    <net-file value="D:\Scripts\SUMO\generate_routes\net\Town03_C.net.xml"/>
+    <output-trip-file value="D:\Scripts\SUMO\generate_routes\rou\Town03_ped.trips.xml"/>
+    <pedestrians value="True"/>
+    <persontrip.walk-opposite-factor value="0.8"/>
+    <prefix value="ped"/>
+    <random-departpos value="True"/>
+    <seed value="43"/>
+    <min-distance value="300.0"/>
+    <max-distance value="700.0"/>
+    <validate value="True"/>
+    <end value="10.0"/>
+    <period value="0.1"/>
+</configuration>
+-->
+<!-- generated on 2023-11-13 17:24:29 by Eclipse SUMO duarouter Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Scripts\SUMO\generate_routes\net\Town03_C.net.xml"/>
+        <route-files value="D:\Scripts\SUMO\generate_routes\rou\Town03_ped.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Scripts\SUMO\generate_routes\rou\Town03_ped.trips.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="10.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="ped0" depart="0.00" type="walker.pedestrian.0001">
+        <personTrip from="65" to="61" walkFactor="0.75"/>
+    </person>
+    <person id="ped1" depart="0.10" type="walker.pedestrian.0002">
+        <personTrip from="23" to="0" walkFactor="0.75"/>
+    </person>
+    <person id="ped2" depart="0.20" type="walker.pedestrian.0007">
+        <personTrip from="63" to="-50#1" walkFactor="0.75"/>
+    </person>
+    <person id="ped3" depart="0.30" type="walker.pedestrian.0010">
+        <personTrip from="65" to="22" walkFactor="0.75"/>
+    </person>
+    <person id="ped4" depart="0.40" type="walker.pedestrian.0015">
+        <personTrip from="-30" to="64" walkFactor="0.75"/>
+    </person>
+    <person id="ped5" depart="0.50" type="walker.pedestrian.0021">
+        <personTrip from="24" to="-2" walkFactor="0.75"/>
+    </person>
+    <person id="ped6" depart="0.60" type="walker.pedestrian.0029">
+        <personTrip from="-2" to="33" walkFactor="0.75"/>
+    </person>
+    <person id="ped7" depart="0.70" type="walker.pedestrian.0030">
+        <personTrip from="71" to="79" walkFactor="0.75"/>
+    </person>
+    <person id="ped8" depart="0.80" type="walker.pedestrian.0036">
+        <personTrip from="71" to="69" walkFactor="0.75"/>
+    </person>
+    <person id="ped9" depart="0.90" type="walker.pedestrian.0040">
+        <personTrip from="64" to="65" walkFactor="0.75"/>
+    </person>
+    <person id="ped10" depart="1.00" type="walker.pedestrian.0001">
+        <personTrip from="21" to="-48" walkFactor="0.75"/>
+    </person>
+    <person id="ped11" depart="1.10" type="walker.pedestrian.0002">
+        <personTrip from="-41" to="-32" walkFactor="0.75"/>
+    </person>
+    <person id="ped12" depart="1.20" type="walker.pedestrian.0007">
+        <personTrip from="18" to="26" walkFactor="0.75"/>
+    </person>
+    <person id="ped13" depart="1.30" type="walker.pedestrian.0010">
+        <personTrip from="77" to="21" walkFactor="0.75"/>
+    </person>
+    <person id="ped14" depart="1.40" type="walker.pedestrian.0015">
+        <personTrip from="40" to="-23" walkFactor="0.75"/>
+    </person>
+    <person id="ped15" depart="1.50" type="walker.pedestrian.0021">
+        <personTrip from="68" to="40" walkFactor="0.75"/>
+    </person>
+    <person id="ped16" depart="1.60" type="walker.pedestrian.0029">
+        <personTrip from="40" to="-77" walkFactor="0.75"/>
+    </person>
+    <person id="ped17" depart="1.70" type="walker.pedestrian.0030">
+        <personTrip from="75" to="22" walkFactor="0.75"/>
+    </person>
+    <person id="ped18" depart="1.80" type="walker.pedestrian.0036">
+        <personTrip from="71" to="-48" walkFactor="0.75"/>
+    </person>
+    <person id="ped19" depart="1.90" type="walker.pedestrian.0040">
+        <personTrip from="72" to="-32" walkFactor="0.75"/>
+    </person>
+    <person id="ped20" depart="2.00" type="walker.pedestrian.0001">
+        <personTrip from="-69" to="-67" walkFactor="0.75"/>
+    </person>
+    <person id="ped21" depart="2.10" type="walker.pedestrian.0002">
+        <personTrip from="39" to="-80" walkFactor="0.75"/>
+    </person>
+    <person id="ped22" depart="2.20" type="walker.pedestrian.0007">
+        <personTrip from="-32" to="29" walkFactor="0.75"/>
+    </person>
+    <person id="ped23" depart="2.30" type="walker.pedestrian.0010">
+        <personTrip from="74" to="26" walkFactor="0.75"/>
+    </person>
+    <person id="ped24" depart="2.40" type="walker.pedestrian.0015">
+        <personTrip from="-18" to="67" walkFactor="0.75"/>
+    </person>
+    <person id="ped25" depart="2.50" type="walker.pedestrian.0021">
+        <personTrip from="29" to="-58" walkFactor="0.75"/>
+    </person>
+    <person id="ped26" depart="2.60" type="walker.pedestrian.0029">
+        <personTrip from="64" to="33" walkFactor="0.75"/>
+    </person>
+    <person id="ped27" depart="2.70" type="walker.pedestrian.0030">
+        <personTrip from="-23" to="29" walkFactor="0.75"/>
+    </person>
+    <person id="ped28" depart="2.80" type="walker.pedestrian.0036">
+        <personTrip from="4" to="0" walkFactor="0.75"/>
+    </person>
+    <person id="ped29" depart="2.90" type="walker.pedestrian.0040">
+        <personTrip from="26" to="-17" walkFactor="0.75"/>
+    </person>
+    <person id="ped30" depart="3.00" type="walker.pedestrian.0001">
+        <personTrip from="-62" to="54" walkFactor="0.75"/>
+    </person>
+    <person id="ped31" depart="3.10" type="walker.pedestrian.0002">
+        <personTrip from="-23" to="-59" walkFactor="0.75"/>
+    </person>
+    <person id="ped32" depart="3.20" type="walker.pedestrian.0007">
+        <personTrip from="-5" to="-22" walkFactor="0.75"/>
+    </person>
+    <person id="ped33" depart="3.30" type="walker.pedestrian.0010">
+        <personTrip from="1" to="-76" walkFactor="0.75"/>
+    </person>
+    <person id="ped34" depart="3.40" type="walker.pedestrian.0015">
+        <personTrip from="62" to="54" walkFactor="0.75"/>
+    </person>
+    <person id="ped35" depart="3.50" type="walker.pedestrian.0021">
+        <personTrip from="67" to="-17" walkFactor="0.75"/>
+    </person>
+    <person id="ped36" depart="3.60" type="walker.pedestrian.0029">
+        <personTrip from="-76" to="0" walkFactor="0.75"/>
+    </person>
+    <person id="ped37" depart="3.70" type="walker.pedestrian.0030">
+        <personTrip from="74" to="22" walkFactor="0.75"/>
+    </person>
+    <person id="ped38" depart="3.80" type="walker.pedestrian.0036">
+        <personTrip from="-69" to="29" walkFactor="0.75"/>
+    </person>
+    <person id="ped39" depart="3.90" type="walker.pedestrian.0040">
+        <personTrip from="22" to="54" walkFactor="0.75"/>
+    </person>
+    <person id="ped40" depart="4.00" type="walker.pedestrian.0001">
+        <personTrip from="63" to="40" walkFactor="0.75"/>
+    </person>
+    <person id="ped41" depart="4.10" type="walker.pedestrian.0002">
+        <personTrip from="-75" to="22" walkFactor="0.75"/>
+    </person>
+    <person id="ped42" depart="4.20" type="walker.pedestrian.0007">
+        <personTrip from="-2" to="-58" walkFactor="0.75"/>
+    </person>
+    <person id="ped43" depart="4.30" type="walker.pedestrian.0010">
+        <personTrip from="-1" to="22" walkFactor="0.75"/>
+    </person>
+    <person id="ped44" depart="4.40" type="walker.pedestrian.0015">
+        <personTrip from="20" to="72" walkFactor="0.75"/>
+    </person>
+    <person id="ped45" depart="4.50" type="walker.pedestrian.0021">
+        <personTrip from="-79" to="63" walkFactor="0.75"/>
+    </person>
+    <person id="ped46" depart="4.60" type="walker.pedestrian.0029">
+        <personTrip from="54" to="55" walkFactor="0.75"/>
+    </person>
+    <person id="ped47" depart="4.70" type="walker.pedestrian.0030">
+        <personTrip from="71" to="48" walkFactor="0.75"/>
+    </person>
+    <person id="ped48" depart="4.80" type="walker.pedestrian.0036">
+        <personTrip from="66" to="-62" walkFactor="0.75"/>
+    </person>
+    <person id="ped49" depart="4.90" type="walker.pedestrian.0040">
+        <personTrip from="-52" to="55" walkFactor="0.75"/>
+    </person>
+    <person id="ped50" depart="5.00" type="walker.pedestrian.0001">
+        <personTrip from="-74" to="20" walkFactor="0.75"/>
+    </person>
+    <person id="ped51" depart="5.10" type="walker.pedestrian.0002">
+        <personTrip from="63" to="-73" walkFactor="0.75"/>
+    </person>
+    <person id="ped52" depart="5.20" type="walker.pedestrian.0007">
+        <personTrip from="33" to="2" walkFactor="0.75"/>
+    </person>
+    <person id="ped53" depart="5.30" type="walker.pedestrian.0010">
+        <personTrip from="64" to="-68" walkFactor="0.75"/>
+    </person>
+    <person id="ped54" depart="5.40" type="walker.pedestrian.0015">
+        <personTrip from="-65" to="-24" walkFactor="0.75"/>
+    </person>
+    <person id="ped55" depart="5.50" type="walker.pedestrian.0021">
+        <personTrip from="24" to="-1" walkFactor="0.75"/>
+    </person>
+    <person id="ped56" depart="5.60" type="walker.pedestrian.0029">
+        <personTrip from="-0" to="20" walkFactor="0.75"/>
+    </person>
+    <person id="ped57" depart="5.70" type="walker.pedestrian.0030">
+        <personTrip from="4" to="1" walkFactor="0.75"/>
+    </person>
+    <person id="ped58" depart="5.80" type="walker.pedestrian.0036">
+        <personTrip from="-48" to="-2" walkFactor="0.75"/>
+    </person>
+    <person id="ped59" depart="5.90" type="walker.pedestrian.0040">
+        <personTrip from="1" to="-78#0" walkFactor="0.75"/>
+    </person>
+    <person id="ped60" depart="6.00" type="walker.pedestrian.0001">
+        <personTrip from="-18" to="-23" walkFactor="0.75"/>
+    </person>
+    <person id="ped61" depart="6.10" type="walker.pedestrian.0002">
+        <personTrip from="4" to="-42" walkFactor="0.75"/>
+    </person>
+    <person id="ped62" depart="6.20" type="walker.pedestrian.0007">
+        <personTrip from="55" to="80" walkFactor="0.75"/>
+    </person>
+    <person id="ped63" depart="6.30" type="walker.pedestrian.0010">
+        <personTrip from="-69" to="-67" walkFactor="0.75"/>
+    </person>
+    <person id="ped64" depart="6.40" type="walker.pedestrian.0015">
+        <personTrip from="-7" to="63" walkFactor="0.75"/>
+    </person>
+    <person id="ped65" depart="6.50" type="walker.pedestrian.0021">
+        <personTrip from="-66" to="4" walkFactor="0.75"/>
+    </person>
+    <person id="ped66" depart="6.60" type="walker.pedestrian.0029">
+        <personTrip from="-42" to="-23" walkFactor="0.75"/>
+    </person>
+    <person id="ped67" depart="6.70" type="walker.pedestrian.0030">
+        <personTrip from="-42" to="63" walkFactor="0.75"/>
+    </person>
+    <person id="ped68" depart="6.80" type="walker.pedestrian.0036">
+        <personTrip from="-22" to="-59" walkFactor="0.75"/>
+    </person>
+    <person id="ped69" depart="6.90" type="walker.pedestrian.0040">
+        <personTrip from="-24" to="-41" walkFactor="0.75"/>
+    </person>
+    <person id="ped70" depart="7.00" type="walker.pedestrian.0001">
+        <personTrip from="-1" to="-24" walkFactor="0.75"/>
+    </person>
+    <person id="ped71" depart="7.10" type="walker.pedestrian.0002">
+        <personTrip from="-58" to="-19" walkFactor="0.75"/>
+    </person>
+    <person id="ped72" depart="7.20" type="walker.pedestrian.0007">
+        <personTrip from="-3" to="78#0" walkFactor="0.75"/>
+    </person>
+    <person id="ped73" depart="7.30" type="walker.pedestrian.0010">
+        <personTrip from="50#0" to="39" walkFactor="0.75"/>
+    </person>
+    <person id="ped74" depart="7.40" type="walker.pedestrian.0015">
+        <personTrip from="74" to="63" walkFactor="0.75"/>
+    </person>
+    <person id="ped75" depart="7.50" type="walker.pedestrian.0021">
+        <personTrip from="40" to="63" walkFactor="0.75"/>
+    </person>
+    <person id="ped76" depart="7.60" type="walker.pedestrian.0029">
+        <personTrip from="1" to="23" walkFactor="0.75"/>
+    </person>
+    <person id="ped77" depart="7.70" type="walker.pedestrian.0030">
+        <personTrip from="-0" to="21" walkFactor="0.75"/>
+    </person>
+    <person id="ped78" depart="7.80" type="walker.pedestrian.0036">
+        <personTrip from="54" to="62" walkFactor="0.75"/>
+    </person>
+    <person id="ped79" depart="7.90" type="walker.pedestrian.0040">
+        <personTrip from="69" to="17" walkFactor="0.75"/>
+    </person>
+    <person id="ped80" depart="8.00" type="walker.pedestrian.0001">
+        <personTrip from="-67" to="-20" walkFactor="0.75"/>
+    </person>
+    <person id="ped81" depart="8.10" type="walker.pedestrian.0002">
+        <personTrip from="-59" to="4" walkFactor="0.75"/>
+    </person>
+    <person id="ped82" depart="8.20" type="walker.pedestrian.0007">
+        <personTrip from="63" to="-60" walkFactor="0.75"/>
+    </person>
+    <person id="ped83" depart="8.30" type="walker.pedestrian.0010">
+        <personTrip from="24" to="-17" walkFactor="0.75"/>
+    </person>
+    <person id="ped84" depart="8.40" type="walker.pedestrian.0015">
+        <personTrip from="63" to="-47" walkFactor="0.75"/>
+    </person>
+    <person id="ped85" depart="8.50" type="walker.pedestrian.0021">
+        <personTrip from="-78#1" to="64" walkFactor="0.75"/>
+    </person>
+    <person id="ped86" depart="8.60" type="walker.pedestrian.0029">
+        <personTrip from="33" to="40" walkFactor="0.75"/>
+    </person>
+    <person id="ped87" depart="8.70" type="walker.pedestrian.0030">
+        <personTrip from="-81" to="26" walkFactor="0.75"/>
+    </person>
+    <person id="ped88" depart="8.80" type="walker.pedestrian.0036">
+        <personTrip from="-59" to="-22" walkFactor="0.75"/>
+    </person>
+    <person id="ped89" depart="8.90" type="walker.pedestrian.0040">
+        <personTrip from="48" to="39" walkFactor="0.75"/>
+    </person>
+    <person id="ped90" depart="9.00" type="walker.pedestrian.0001">
+        <personTrip from="69" to="-65" walkFactor="0.75"/>
+    </person>
+    <person id="ped91" depart="9.10" type="walker.pedestrian.0002">
+        <personTrip from="39" to="50#1" walkFactor="0.75"/>
+    </person>
+    <person id="ped92" depart="9.20" type="walker.pedestrian.0007">
+        <personTrip from="24" to="-2" walkFactor="0.75"/>
+    </person>
+    <person id="ped93" depart="9.30" type="walker.pedestrian.0010">
+        <personTrip from="78#1" to="64" walkFactor="0.75"/>
+    </person>
+    <person id="ped94" depart="9.40" type="walker.pedestrian.0015">
+        <personTrip from="-10" to="71" walkFactor="0.75"/>
+    </person>
+    <person id="ped95" depart="9.50" type="walker.pedestrian.0021">
+        <personTrip from="40" to="-58" walkFactor="0.75"/>
+    </person>
+    <person id="ped96" depart="9.60" type="walker.pedestrian.0029">
+        <personTrip from="-58" to="54" walkFactor="0.75"/>
+    </person>
+    <person id="ped97" depart="9.70" type="walker.pedestrian.0030">
+        <personTrip from="2" to="-47" walkFactor="0.75"/>
+    </person>
+    <person id="ped98" depart="9.80" type="walker.pedestrian.0036">
+        <personTrip from="-2" to="66" walkFactor="0.75"/>
+    </person>
+    <person id="ped99" depart="9.90" type="walker.pedestrian.0040">
+        <personTrip from="55" to="75" walkFactor="0.75"/>
+    </person>
+</routes>

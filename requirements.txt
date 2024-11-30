@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+lxml
+carla==0.9.12

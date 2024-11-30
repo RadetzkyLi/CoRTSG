@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- generated on 2023-11-08 00:25:26.989488 by randomTrips.py UNKNOWN
+<configuration>
+    <net-file value="/home/lrs/scripts/V2X-TSG/data_collection/data/net/Town04_C.net.xml"/>
+    <output-trip-file value="/home/lrs/scripts/V2X-TSG/data_collection/data/rou/Town04_veh.rou.xml"/>
+    <prefix value="veh"/>
+    <lanes value="True"/>
+    <seed value="43"/>
+    <min-distance value="300.0"/>
+    <validate value="True"/>
+    <end value="30.0"/>
+    <period value="0.2"/>
+</configuration>
+-->
+<!-- generated on 2023-11-08 00:25:26 by Eclipse SUMO duarouter Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/lrs/scripts/V2X-TSG/data_collection/data/net/Town04_C.net.xml"/>
+        <route-files value="/home/lrs/scripts/V2X-TSG/data_collection/data/rou/Town04_veh.rou.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/lrs/scripts/V2X-TSG/data_collection/data/rou/Town04_veh.rou.xml.tmp"/>
+        <alternatives-output value="NUL"/>
+        <write-trips value="true"/>
+    </output>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="30.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="veh0" depart="0.00" from="-48.0.00" to="45.0.00" type="vehicle.audi.a2"/>
+    <trip id="veh1" depart="0.20" from="45.0.00" to="42.0.00" type="vehicle.audi.tt"/>
+    <trip id="veh2" depart="0.40" from="39.0.00" to="26.0.00" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh3" depart="0.60" from="-49.0.00" to="-12.0.00" type="vehicle.chevrolet.impala"/>
+    <trip id="veh4" depart="0.80" from="44.0.00" to="-40.0.00" type="vehicle.citroen.c3"/>
+    <trip id="veh5" depart="1.00" from="47.0.00" to="16.0.00" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh6" depart="1.20" from="-18.0.00" to="45.0.00" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh7" depart="1.40" from="24.0.00" to="49.0.00" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh8" depart="1.60" from="48.0.00" to="-43.0.00" type="vehicle.mercedes.coupe"/>
+    <trip id="veh9" depart="1.80" from="-26.0.00" to="45.0.00" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh10" depart="2.00" from="39.0.00" to="-12.0.00" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh11" depart="2.20" from="25.0.00" to="-48.0.00" type="vehicle.mini.cooper_s"/>
+    <trip id="veh12" depart="2.40" from="39.0.00" to="51.0.00" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh13" depart="2.60" from="-16.0.00" to="31.0.00" type="vehicle.ford.ambulance"/>
+    <trip id="veh14" depart="2.80" from="-25.0.00" to="40.0.00" type="vehicle.ford.mustang"/>
+    <trip id="veh15" depart="3.00" from="-0.0.00" to="48.0.00" type="vehicle.nissan.micra"/>
+    <trip id="veh16" depart="3.20" from="37.0.00" to="8.0.00" type="vehicle.nissan.patrol"/>
+    <trip id="veh17" depart="3.40" from="-46.0.00" to="36.0.00" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh18" depart="3.60" from="35.0.00" to="45.0.00" type="vehicle.seat.leon"/>
+    <trip id="veh19" depart="3.80" from="45.0.00" to="-49.0.00" type="vehicle.volkswagen.t2"/>
+    <trip id="veh20" depart="4.00" from="21.0.00" to="-38.0.00" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh21" depart="4.20" from="24.0.00" to="48.0.00" type="vehicle.dodge.charger_police"/>
+    <trip id="veh22" depart="4.40" from="-43.0.00" to="-47.0.00" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh23" depart="4.60" from="15.0.00" to="48.0.00" type="vehicle.micro.microlino"/>
+    <trip id="veh24" depart="4.80" from="46.0.00" to="51.0.00" type="vehicle.toyota.prius"/>
+    <trip id="veh25" depart="5.00" from="24.0.00" to="-38.0.00" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh26" depart="5.20" from="-49.0.00" to="-43.0.00" type="vehicle.tesla.model3"/>
+    <trip id="veh27" depart="5.40" from="-39.0.00" to="35.0.00" type="vehicle.audi.etron"/>
+    <trip id="veh28" depart="5.60" from="-39.0.00" to="3.0.00" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh29" depart="5.80" from="48.0.00" to="38.0.00" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh30" depart="6.00" from="19.0.00" to="45.0.00" type="vehicle.yamaha.yzf"/>
+    <trip id="veh31" depart="6.20" from="3.0.00" to="42.0.00" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh32" depart="6.40" from="-19.0.00" to="47.0.00" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh33" depart="6.60" from="35.0.00" to="48.0.00" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh34" depart="6.80" from="47.0.00" to="-36.0.00" type="vehicle.diamondback.century"/>
+    <trip id="veh35" depart="7.00" from="37.0.00" to="16.0.00" type="vehicle.bh.crossbike"/>
+    <trip id="veh36" depart="7.20" from="1.0.00" to="-40.0.00" type="vehicle.vespa.zx125"/>
+    <trip id="veh37" depart="7.40" from="-46.0.00" to="-8.0.00" type="vehicle.audi.a2"/>
+    <trip id="veh38" depart="7.60" from="-39.0.00" to="-22.0.00" type="vehicle.audi.tt"/>
+    <trip id="veh39" depart="7.80" from="40.0.00" to="-47.0.00" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh40" depart="8.00" from="-48.0.00" to="4.0.00" type="vehicle.chevrolet.impala"/>
+    <trip id="veh41" depart="8.20" from="-28.0.00" to="47.0.00" type="vehicle.citroen.c3"/>
+    <trip id="veh42" depart="8.40" from="13.0.00" to="48.0.00" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh43" depart="8.60" from="47.0.00" to="45.0.00" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh44" depart="8.80" from="16.0.00" to="-22.0.00" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh45" depart="9.00" from="-5.0.00" to="-49.0.00" type="vehicle.mercedes.coupe"/>
+    <trip id="veh46" depart="9.20" from="12.0.00" to="42.0.00" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh47" depart="9.40" from="-4.0.00" to="31.0.00" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh48" depart="9.60" from="-47.0.00" to="-16.0.00" type="vehicle.mini.cooper_s"/>
+    <trip id="veh49" depart="9.80" from="-3.0.00" to="45.0.00" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh50" depart="10.00" from="27.0.00" to="-37.0.00" type="vehicle.ford.ambulance"/>
+    <trip id="veh51" depart="10.20" from="39.0.00" to="-11.0.00" type="vehicle.ford.mustang"/>
+    <trip id="veh52" depart="10.40" from="-19.0.00" to="-40.0.00" type="vehicle.nissan.micra"/>
+    <trip id="veh53" depart="10.60" from="-15.0.00" to="46.0.00" type="vehicle.nissan.patrol"/>
+    <trip id="veh54" depart="10.80" from="-39.0.00" to="27.0.00" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh55" depart="11.00" from="-43.0.00" to="40.0.00" type="vehicle.seat.leon"/>
+    <trip id="veh56" depart="11.20" from="44.0.00" to="12.0.00" type="vehicle.volkswagen.t2"/>
+    <trip id="veh57" depart="11.40" from="24.0.00" to="39.0.00" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh58" depart="11.60" from="39.0.00" to="-0.0.00" type="vehicle.dodge.charger_police"/>
+    <trip id="veh59" depart="11.80" from="-41.0.00" to="-17.0.00" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh60" depart="12.00" from="34.0.00" to="-3.0.00" type="vehicle.micro.microlino"/>
+    <trip id="veh61" depart="12.20" from="49.0.00" to="40.0.00" type="vehicle.toyota.prius"/>
+    <trip id="veh62" depart="12.40" from="47.0.00" to="-43.0.00" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh63" depart="12.60" from="-38.0.00" to="51.0.00" type="vehicle.tesla.model3"/>
+    <trip id="veh64" depart="12.80" from="-41.0.00" to="-20.0.00" type="vehicle.audi.etron"/>
+    <trip id="veh65" depart="13.00" from="3.0.00" to="-40.0.00" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh66" depart="13.20" from="-39.0.00" to="-41.0.00" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh67" depart="13.40" from="-47.0.00" to="52.0.00" type="vehicle.yamaha.yzf"/>
+    <trip id="veh68" depart="13.60" from="33.0.00" to="36.0.00" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh69" depart="13.80" from="-17.0.00" to="-41.0.00" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh70" depart="14.00" from="-4.0.00" to="40.0.00" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh71" depart="14.20" from="42.0.00" to="40.0.00" type="vehicle.diamondback.century"/>
+    <trip id="veh72" depart="14.40" from="49.0.00" to="-1.0.00" type="vehicle.bh.crossbike"/>
+    <trip id="veh73" depart="14.60" from="39.0.00" to="-26.0.00" type="vehicle.vespa.zx125"/>
+    <trip id="veh74" depart="14.80" from="49.0.00" to="24.0.00" type="vehicle.audi.a2"/>
+    <trip id="veh75" depart="15.00" from="19.0.00" to="-40.0.00" type="vehicle.audi.tt"/>
+    <trip id="veh76" depart="15.20" from="37.0.00" to="-0.0.00" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh77" depart="15.40" from="8.0.00" to="46.0.00" type="vehicle.chevrolet.impala"/>
+    <trip id="veh78" depart="15.60" from="-22.0.00" to="8.0.00" type="vehicle.citroen.c3"/>
+    <trip id="veh79" depart="15.80" from="0.0.00" to="38.0.00" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh80" depart="16.00" from="-10.0.00" to="40.0.00" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh81" depart="16.20" from="42.0.00" to="-47.0.00" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh82" depart="16.40" from="-4.0.00" to="-39.0.00" type="vehicle.mercedes.coupe"/>
+    <trip id="veh83" depart="16.60" from="40.0.00" to="51.0.00" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh84" depart="16.80" from="44.0.00" to="35.0.00" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh85" depart="17.00" from="-46.0.00" to="37.0.00" type="vehicle.mini.cooper_s"/>
+    <trip id="veh86" depart="17.20" from="3.0.00" to="-49.0.00" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh87" depart="17.40" from="24.0.00" to="-49.0.00" type="vehicle.ford.ambulance"/>
+    <trip id="veh88" depart="17.60" from="-16.0.00" to="-41.0.00" type="vehicle.ford.mustang"/>
+    <trip id="veh89" depart="17.80" from="21.0.00" to="48.0.00" type="vehicle.nissan.micra"/>
+    <trip id="veh90" depart="18.00" from="44.0.00" to="-36.0.00" type="vehicle.nissan.patrol"/>
+    <trip id="veh91" depart="18.20" from="-22.0.00" to="-13.0.00" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh92" depart="18.40" from="35.0.00" to="39.0.00" type="vehicle.seat.leon"/>
+    <trip id="veh93" depart="18.60" from="8.0.00" to="-37.0.00" type="vehicle.volkswagen.t2"/>
+    <trip id="veh94" depart="18.80" from="-43.0.00" to="48.0.00" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh95" depart="19.00" from="45.0.00" to="33.0.00" type="vehicle.dodge.charger_police"/>
+    <trip id="veh96" depart="19.20" from="-7.0.00" to="-41.0.00" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh97" depart="19.40" from="40.0.00" to="-47.0.00" type="vehicle.micro.microlino"/>
+    <trip id="veh98" depart="19.60" from="-16.0.00" to="45.0.00" type="vehicle.toyota.prius"/>
+    <trip id="veh99" depart="19.80" from="-16.0.00" to="-40.0.00" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh100" depart="20.00" from="-52.0.00" to="40.0.00" type="vehicle.tesla.model3"/>
+    <trip id="veh101" depart="20.20" from="40.0.00" to="37.0.00" type="vehicle.audi.etron"/>
+    <trip id="veh102" depart="20.40" from="37.0.00" to="15.0.00" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh103" depart="20.60" from="-16.0.00" to="-47.0.00" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh104" depart="20.80" from="4.0.00" to="44.0.00" type="vehicle.yamaha.yzf"/>
+    <trip id="veh105" depart="21.00" from="-51.0.00" to="47.0.00" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh106" depart="21.20" from="31.0.00" to="2.0.00" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh107" depart="21.40" from="-22.0.00" to="48.0.00" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh108" depart="21.60" from="-36.0.00" to="46.0.00" type="vehicle.diamondback.century"/>
+    <trip id="veh109" depart="21.80" from="8.0.00" to="45.0.00" type="vehicle.bh.crossbike"/>
+    <trip id="veh110" depart="22.00" from="47.0.00" to="5.0.00" type="vehicle.vespa.zx125"/>
+    <trip id="veh111" depart="22.20" from="-47.0.00" to="-22.0.00" type="vehicle.audi.a2"/>
+    <trip id="veh112" depart="22.40" from="52.0.00" to="-23.0.00" type="vehicle.audi.tt"/>
+    <trip id="veh113" depart="22.60" from="-16.0.00" to="-37.0.00" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh114" depart="22.80" from="-38.0.00" to="-16.0.00" type="vehicle.chevrolet.impala"/>
+    <trip id="veh115" depart="23.00" from="-41.0.00" to="33.0.00" type="vehicle.citroen.c3"/>
+    <trip id="veh116" depart="23.20" from="-51.0.00" to="40.0.00" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh117" depart="23.40" from="-46.0.00" to="-39.0.00" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh118" depart="23.60" from="40.0.00" to="9.0.00" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh119" depart="23.80" from="-49.0.00" to="36.0.00" type="vehicle.mercedes.coupe"/>
+    <trip id="veh120" depart="24.00" from="-51.0.00" to="46.0.00" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh121" depart="24.20" from="-50.0.00" to="44.0.00" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh122" depart="24.40" from="37.0.00" to="40.0.00" type="vehicle.mini.cooper_s"/>
+    <trip id="veh123" depart="24.60" from="-36.0.00" to="42.0.00" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh124" depart="24.80" from="-2.0.00" to="39.0.00" type="vehicle.ford.ambulance"/>
+    <trip id="veh125" depart="25.00" from="4.0.00" to="-48.0.00" type="vehicle.ford.mustang"/>
+    <trip id="veh126" depart="25.20" from="-13.0.00" to="-41.0.00" type="vehicle.nissan.micra"/>
+    <trip id="veh127" depart="25.40" from="39.0.00" to="-36.0.00" type="vehicle.nissan.patrol"/>
+    <trip id="veh128" depart="25.60" from="44.0.00" to="30.0.00" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh129" depart="25.80" from="-12.0.00" to="-39.0.00" type="vehicle.seat.leon"/>
+    <trip id="veh130" depart="26.00" from="24.0.00" to="7.0.00" type="vehicle.volkswagen.t2"/>
+    <trip id="veh131" depart="26.20" from="36.0.00" to="-40.0.00" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh132" depart="26.40" from="-40.0.00" to="-22.0.00" type="vehicle.dodge.charger_police"/>
+    <trip id="veh133" depart="26.60" from="-30.0.00" to="-47.0.00" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh134" depart="26.80" from="-7.0.00" to="13.0.00" type="vehicle.micro.microlino"/>
+    <trip id="veh135" depart="27.00" from="38.0.00" to="38.0.00" type="vehicle.toyota.prius"/>
+    <trip id="veh136" depart="27.20" from="-49.0.00" to="3.0.00" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh137" depart="27.40" from="-40.0.00" to="15.0.00" type="vehicle.tesla.model3"/>
+    <trip id="veh138" depart="27.60" from="44.0.00" to="37.0.00" type="vehicle.audi.etron"/>
+    <trip id="veh139" depart="27.80" from="21.0.00" to="47.0.00" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh140" depart="28.00" from="-46.0.00" to="19.0.00" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh141" depart="28.20" from="39.0.00" to="-41.0.00" type="vehicle.yamaha.yzf"/>
+    <trip id="veh142" depart="28.40" from="-25.0.00" to="-47.0.00" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh143" depart="28.60" from="35.0.00" to="39.0.00" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh144" depart="28.80" from="34.0.00" to="-41.0.00" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh145" depart="29.00" from="49.0.00" to="44.0.00" type="vehicle.diamondback.century"/>
+    <trip id="veh146" depart="29.20" from="52.0.00" to="-40.0.00" type="vehicle.bh.crossbike"/>
+    <trip id="veh147" depart="29.40" from="-46.0.00" to="9.0.00" type="vehicle.vespa.zx125"/>
+    <trip id="veh148" depart="29.60" from="24.0.00" to="40.0.00" type="vehicle.audi.a2"/>
+    <trip id="veh149" depart="29.80" from="-7.0.00" to="-2.0.00" type="vehicle.audi.tt"/>
+</routes>

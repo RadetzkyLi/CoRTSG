@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-11-14 19:48:05.757694 by randomTrips.py v1_18_0+0000-03ecfdea036
+<configuration>
+    <net-file value="D:\Scripts\SUMO\generate_routes\net\Town07.net.xml"/>
+    <output-trip-file value="D:\Scripts\SUMO\generate_routes\rou\Town07_ped.trips.xml"/>
+    <route-file value="D:\Scripts\SUMO\generate_routes\rou\Town07_ped.rou.xml"/>
+    <pedestrians value="True"/>
+    <persontrip.walk-opposite-factor value="0.8"/>
+    <prefix value="ped"/>
+    <random-departpos value="True"/>
+    <seed value="43"/>
+    <min-distance value="200.0"/>
+    <max-distance value="700.0"/>
+    <validate value="True"/>
+    <end value="10.0"/>
+    <period value="0.5"/>
+</configuration>
+-->
+
+<!-- generated on 2023-11-14 19:48:05 by Eclipse SUMO duarouter Version 1.18.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="D:\Scripts\SUMO\generate_routes\net\Town07.net.xml"/>
+        <route-files value="D:\Scripts\SUMO\generate_routes\rou\Town07_ped.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="D:\Scripts\SUMO\generate_routes\rou\Town07_ped.rou.xml"/>
+        <alternatives-output value="NUL"/>
+    </output>
+
+    <processing>
+        <persontrip.walk-opposite-factor value="0.8"/>
+    </processing>
+
+    <time>
+        <begin value="0.0"/>
+        <end value="10.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <person id="ped0" depart="0.00">
+        <walk edges="34 35 41 42 43 44"/>
+    </person>
+    <person id="ped1" depart="0.50">
+        <walk edges="34 35 41 42 43 44"/>
+    </person>
+    <person id="ped2" depart="2.00">
+        <walk edges="23 -15 -27 -28 -29 43 42 41 35 -53 -52 -51 -12 3"/>
+    </person>
+    <person id="ped3" depart="2.50">
+        <walk edges="55 -15 -27 -28 -29 43 42 41 35 34 2"/>
+    </person>
+    <person id="ped4" depart="3.00">
+        <walk edges="35 41 42 43 -29 -28 -27 -15 23"/>
+    </person>
+    <person id="ped5" depart="3.50">
+        <walk edges="23 -15 -27 -28 -29 43 42 41 35 -53 -63 -64"/>
+    </person>
+    <person id="ped6" depart="4.00">
+        <walk edges="34 35 41 42 43 -29 -28 -27 -15 55"/>
+    </person>
+    <person id="ped7" depart="4.50">
+        <walk edges="34 35 41 42 43 -29 -28 -27 -15 23"/>
+    </person>
+    <person id="ped8" depart="5.00">
+        <walk edges="34 35 41 42 43 44"/>
+    </person>
+    <person id="ped9" depart="5.50">
+        <walk edges="23 -15 -27 -28 -29 43 42 41 35 -53 -63 -64"/>
+    </person>
+    <person id="ped10" depart="6.00">
+        <walk edges="34 35 41 42 43 44"/>
+    </person>
+    <person id="ped11" depart="6.50">
+        <walk edges="55 -15 -27 -28 -29 43 42 41 35 -53 -52 -51 -12 3"/>
+    </person>
+    <person id="ped12" depart="7.00">
+        <walk edges="34 35 41 42 43 -29 -28 -27 -15 23"/>
+    </person>
+    <person id="ped13" depart="7.50">
+        <walk edges="55 -15 -27 -28 -29 43 42 41 35 -53 -52 -51 -12 3"/>
+    </person>
+    <person id="ped14" depart="8.00">
+        <walk edges="35 41 42 43 -29 -28 -27 -15 55"/>
+    </person>
+    <person id="ped15" depart="8.50">
+        <walk edges="44 43 42 41 35 -53 -52 -51 -12 3"/>
+    </person>
+    <person id="ped16" depart="9.00">
+        <walk edges="55 -15 -27 -28 -29 43 42 41 35 34 2"/>
+    </person>
+    <person id="ped17" depart="9.50">
+        <walk edges="34 35 41 42 43 -29 -28 -27 26#1 26#0 25 24"/>
+    </person>
+</routes>

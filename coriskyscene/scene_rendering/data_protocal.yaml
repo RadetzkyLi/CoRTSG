@@ -1,0 +1,72 @@
+output_dir: 'V2xTestScenarios/'
+cav_sensors: # sensors of CAV
+  sensor_list:
+    - name: 'rgb_camera'
+      args: &base_rgb_camera
+        fov: 110
+        image_size_x: 800
+        image_size_y: 600
+        enable_postprocess_effects: 'True'
+        relative_pose: 'front'
+    - name: 'rgb_camera'
+      args:
+        <<: *base_rgb_camera
+        relative_pose: 'rear'
+    - name: 'rgb_camera'
+      args:
+        <<: *base_rgb_camera
+        relative_pose: 'left'
+    - name: 'rgb_camera'
+      args:
+        <<: *base_rgb_camera
+        relative_pose: 'right'
+    - name: 'gnss'
+      args: &base_gnss
+        noise_alt_stddev: 0.005
+        noise_lat_stddev: 1.0e-06
+        noise_lon_stddev: 1.0e-06
+    - name: 'lidar'
+      args: &base_lidar
+        upper_fov: 10
+        lower_fov: -30
+        horizontal_fov: 360.0
+        channels: 64
+        rotation_frequency: 20
+        points_per_second: 1300000
+        range: 120
+        dropoff_general_rate: 0.1
+        dropoff_intensity_limit: 0.7
+        dropoff_zero_intensity: 0.15
+        noise_stddev: 0.02
+    - name: 'semantic_lidar'
+      args:
+        <<: *base_lidar
+rsu_sensors: # sensors of Road Side Unit
+  sensor_list:
+    - name: 'lidar'
+      args:
+        <<: *base_lidar
+        upper_fov: 0.0
+        lower_fov: -40.0
+    - name: 'semantic_lidar'
+      args:
+        <<: *base_lidar
+        upper_fov: 0.0
+        lower_fov: -40.0
+    - name: 'rgb_camera'
+      args:
+        <<: *base_rgb_camera
+        relative_pose: 'forward'
+    - name: 'rgb_camera'
+      args:
+        <<: *base_rgb_camera
+        relative_pose: 'backward'
+    - name: 'gnss'
+      args:
+        <<: *base_gnss
+world:
+  client_port: 2000
+  fixed_delta_seconds: 0.05
+  seed: 22
+  sync_mode: true
+  map_name: 'Town03'  # should be consistent with traffic scenes!!!

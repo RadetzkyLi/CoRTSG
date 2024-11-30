@@ -1,0 +1,215 @@
+{
+    "scenes": [
+        {
+            "id": "example_00000",
+            "town_name": "Town05",
+            "relevant_roads": [
+                5
+            ],
+            "ego_id": 0,
+            "actor_list": [
+                {
+                    "id": 0,
+                    "type_id": "vehicle.lincoln.mkz_2017",
+                    "vclass": "car",
+                    "waypoint": {
+                        "coord": [
+                            -128.36608103430817,
+                            46.88778933717449,
+                            -1.52587890625e-05
+                        ],
+                        "heading": -1.5776650136941162,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": -1,
+                        "s": 30,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        2.4508416652679443,
+                        1.0641621351242065,
+                        0.7553732395172119
+                    ]
+                },
+                {
+                    "id": 1,
+                    "type_id": "vehicle.harley-davidson.low_rider",
+                    "vclass": "motorcycle",
+                    "waypoint": {
+                        "coord": [
+                            -124.90050676143747,
+                            41.8638670687455,
+                            -1.52587890625e-05
+                        ],
+                        "heading": 1.563927639895677,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": 1,
+                        "s": 35,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        1.1778701543807983,
+                        0.38183942437171936,
+                        0.6382853388786316
+                    ]
+                },
+                {
+                    "id": 2,
+                    "type_id": "vehicle.vespa.zx125",
+                    "vclass": "motorcycle",
+                    "waypoint": {
+                        "coord": [
+                            -128.40042419875755,
+                            41.887907283860066,
+                            -1.52587890625e-05
+                        ],
+                        "heading": -1.5776650136941162,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": -1,
+                        "s": 35,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        0.9023334980010986,
+                        0.42784383893013,
+                        0.6178141832351685
+                    ]
+                },
+                {
+                    "id": 3,
+                    "type_id": "vehicle.kawasaki.ninja",
+                    "vclass": "motorcycle",
+                    "waypoint": {
+                        "coord": [
+                            -131.90034163607766,
+                            41.91194749897464,
+                            -1.52587890625e-05
+                        ],
+                        "heading": -1.5776650136941162,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": -2,
+                        "s": 35,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        1.0166761875152588,
+                        0.4012899398803711,
+                        0.5727267861366272
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type_id": "vehicle.yamaha.yzf",
+                    "vclass": "motorcycle",
+                    "waypoint": {
+                        "coord": [
+                            -124.86616359698809,
+                            46.86374912205992,
+                            -1.52587890625e-05
+                        ],
+                        "heading": 1.563927639895677,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": 1,
+                        "s": 30,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        1.1047229766845703,
+                        0.43351709842681885,
+                        0.6255727410316467
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type_id": "vehicle.diamondback.century",
+                    "vclass": "bicycle",
+                    "waypoint": {
+                        "coord": [
+                            -131.86599847162827,
+                            46.91182955228906,
+                            -1.52587890625e-05
+                        ],
+                        "heading": -1.5776650136941162,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": -2,
+                        "s": 30,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        0.8214218020439148,
+                        0.18625812232494354,
+                        0.5979812741279602
+                    ]
+                },
+                {
+                    "id": 6,
+                    "type_id": "vehicle.gazelle.omafiets",
+                    "vclass": "bicycle",
+                    "waypoint": {
+                        "coord": [
+                            -124.83182043253868,
+                            51.86363117537434,
+                            -1.52587890625e-05
+                        ],
+                        "heading": 1.563927639895677,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": 1,
+                        "s": 25,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        0.9177202582359314,
+                        0.16446444392204285,
+                        0.5856872797012329
+                    ]
+                },
+                {
+                    "id": 7,
+                    "type_id": "vehicle.bh.crossbike",
+                    "vclass": "bicycle",
+                    "waypoint": {
+                        "coord": [
+                            -128.33173786985878,
+                            51.887671390488904,
+                            -1.52587890625e-05
+                        ],
+                        "heading": -1.5776650136941162,
+                        "lane_type": "driving",
+                        "road_id": 5,
+                        "section_id": 0,
+                        "lane_id": -1,
+                        "s": 25,
+                        "lane_width": 3.5,
+                        "lane_change": null
+                    },
+                    "extent": [
+                        0.7436444163322449,
+                        0.42962872982025146,
+                        0.5397894978523254
+                    ]
+                }
+            ],
+            "occlusion_pairs": []
+        }
+    ]
+}

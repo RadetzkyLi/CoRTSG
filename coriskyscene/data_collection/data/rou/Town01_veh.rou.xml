@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- generated on 2023-10-28 14:56:15.691300 by randomTrips.py v1_18_0+0000-03ecfdea036
+<configuration>
+    <net-file value="D:\Scripts\SUMO\generate_routes\net\Town01_C.net.xml"/>
+    <output-trip-file value="D:\Scripts\SUMO\generate_routes\rou\Town01_veh.rou.xml"/>
+    <prefix value="veh"/>
+    <random-departpos value="True"/>
+    <seed value="43"/>
+    <min-distance value="300.0"/>
+    <validate value="True"/>
+    <end value="50.0"/>
+    <period value="0.5"/>
+</configuration>
+-->
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <trip id="veh0" depart="0.00" from="-8" to="-9" departPos="7.04" type="vehicle.audi.a2"/>
+    <trip id="veh1" depart="0.50" from="21" to="-7" departPos="6.15" type="vehicle.audi.tt"/>
+    <trip id="veh2" depart="1.00" from="-4" to="-14" departPos="114.90" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh3" depart="1.50" from="-3" to="-19" departPos="297.75" type="vehicle.chevrolet.impala"/>
+    <trip id="veh4" depart="2.00" from="7" to="10" departPos="4.10" type="vehicle.citroen.c3"/>
+    <trip id="veh5" depart="2.50" from="-10" to="7" departPos="95.09" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh6" depart="3.00" from="-2" to="6" departPos="17.10" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh7" depart="3.50" from="-25" to="-19" departPos="6.26" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh8" depart="4.00" from="7" to="-2" departPos="6.80" type="vehicle.mercedes.coupe"/>
+    <trip id="veh9" depart="4.50" from="5" to="25" departPos="443.69" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh10" depart="5.00" from="14" to="-2" departPos="9.66" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh11" depart="5.50" from="-7" to="5" departPos="27.23" type="vehicle.mini.cooper_s"/>
+    <trip id="veh12" depart="6.00" from="0" to="12" departPos="75.72" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh13" depart="6.50" from="6" to="16" departPos="183.67" type="vehicle.ford.ambulance"/>
+    <trip id="veh14" depart="7.00" from="14" to="-1" departPos="2.46" type="vehicle.ford.mustang"/>
+    <trip id="veh15" depart="7.50" from="14" to="2" departPos="11.74" type="vehicle.nissan.micra"/>
+    <trip id="veh16" depart="8.00" from="-8" to="-23" departPos="125.58" type="vehicle.nissan.patrol"/>
+    <trip id="veh17" depart="8.50" from="-7" to="-22" departPos="5.04" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh18" depart="9.00" from="-7" to="-8" departPos="17.04" type="vehicle.seat.leon"/>
+    <trip id="veh19" depart="9.50" from="-14" to="-25" departPos="0.44" type="vehicle.volkswagen.t2"/>
+    <trip id="veh20" depart="10.00" from="4" to="6" departPos="137.67" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh21" depart="10.50" from="14" to="22" departPos="14.21" type="vehicle.dodge.charger_police"/>
+    <trip id="veh22" depart="11.00" from="-6" to="16" departPos="190.43" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh23" depart="11.50" from="12" to="-2" departPos="97.96" type="vehicle.micro.microlino"/>
+    <trip id="veh24" depart="12.00" from="12" to="21" departPos="25.19" type="vehicle.toyota.prius"/>
+    <trip id="veh25" depart="12.50" from="-7" to="-8" departPos="4.45" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh26" depart="13.00" from="-14" to="-1" departPos="5.31" type="vehicle.tesla.model3"/>
+    <trip id="veh27" depart="13.50" from="-7" to="-1" departPos="26.18" type="vehicle.audi.etron"/>
+    <trip id="veh28" depart="14.00" from="-12" to="-7" departPos="56.67" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh29" depart="14.50" from="-3" to="-24" departPos="61.55" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh30" depart="15.00" from="16" to="-24" departPos="9.66" type="vehicle.yamaha.yzf"/>
+    <trip id="veh31" depart="15.50" from="-16" to="-3" departPos="34.23" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh32" depart="16.00" from="-16" to="-24" departPos="10.29" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh33" depart="16.50" from="22" to="14" departPos="26.42" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh34" depart="17.00" from="-7" to="10" departPos="17.44" type="vehicle.diamondback.century"/>
+    <trip id="veh35" depart="17.50" from="-25" to="14" departPos="11.26" type="vehicle.bh.crossbike"/>
+    <trip id="veh36" depart="18.00" from="0" to="0" departPos="326.02" type="vehicle.vespa.zx125"/>
+    <trip id="veh37" depart="18.50" from="-3" to="-7" departPos="177.06" type="vehicle.audi.a2"/>
+    <trip id="veh38" depart="19.00" from="-14" to="6" departPos="6.00" type="vehicle.audi.tt"/>
+    <trip id="veh39" depart="19.50" from="-7" to="16" departPos="13.81" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh40" depart="20.00" from="5" to="0" departPos="112.79" type="vehicle.chevrolet.impala"/>
+    <trip id="veh41" depart="20.50" from="16" to="-24" departPos="17.38" type="vehicle.citroen.c3"/>
+    <trip id="veh42" depart="21.00" from="-14" to="-24" departPos="1.15" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh43" depart="21.50" from="-1" to="12" departPos="6.09" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh44" depart="22.00" from="-12" to="-8" departPos="187.30" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh45" depart="22.50" from="21" to="-7" departPos="12.16" type="vehicle.mercedes.coupe"/>
+    <trip id="veh46" depart="23.00" from="-8" to="22" departPos="120.04" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh47" depart="23.50" from="5" to="2" departPos="290.85" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh48" depart="24.00" from="24" to="17" departPos="94.36" type="vehicle.mini.cooper_s"/>
+    <trip id="veh49" depart="24.50" from="-3" to="-3" departPos="465.46" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh50" depart="25.00" from="-14" to="24" departPos="6.20" type="vehicle.ford.ambulance"/>
+    <trip id="veh51" depart="25.50" from="-10" to="-14" departPos="46.42" type="vehicle.ford.mustang"/>
+    <trip id="veh52" depart="26.00" from="-7" to="23" departPos="28.99" type="vehicle.nissan.micra"/>
+    <trip id="veh53" depart="26.50" from="0" to="-14" departPos="124.26" type="vehicle.nissan.patrol"/>
+    <trip id="veh54" depart="27.00" from="-25" to="-24" departPos="16.85" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh55" depart="27.50" from="24" to="-4" departPos="36.81" type="vehicle.seat.leon"/>
+    <trip id="veh56" depart="28.00" from="4" to="6" departPos="80.54" type="vehicle.volkswagen.t2"/>
+    <trip id="veh57" depart="28.50" from="14" to="-1" departPos="12.86" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh58" depart="29.00" from="5" to="18" departPos="240.58" type="vehicle.dodge.charger_police"/>
+    <trip id="veh59" depart="29.50" from="0" to="-14" departPos="86.27" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh60" depart="30.00" from="-22" to="-14" departPos="4.84" type="vehicle.micro.microlino"/>
+    <trip id="veh61" depart="30.50" from="-23" to="-6" departPos="35.40" type="vehicle.toyota.prius"/>
+    <trip id="veh62" depart="31.00" from="-6" to="25" departPos="212.41" type="vehicle.tesla.cybertruck"/>
+    <trip id="veh63" depart="31.50" from="-22" to="7" departPos="40.19" type="vehicle.tesla.model3"/>
+    <trip id="veh64" depart="32.00" from="-1" to="-23" departPos="79.22" type="vehicle.audi.etron"/>
+    <trip id="veh65" depart="32.50" from="19" to="-1" departPos="14.01" type="vehicle.carlamotors.carlacola"/>
+    <trip id="veh66" depart="33.00" from="-23" to="0" departPos="37.33" type="vehicle.carlamotors.firetruck"/>
+    <trip id="veh67" depart="33.50" from="-1" to="-24" departPos="154.10" type="vehicle.yamaha.yzf"/>
+    <trip id="veh68" depart="34.00" from="-2" to="0" departPos="32.25" type="vehicle.harley-davidson.low_rider"/>
+    <trip id="veh69" depart="34.50" from="-24" to="-14" departPos="64.77" type="vehicle.kawasaki.ninja"/>
+    <trip id="veh70" depart="35.00" from="18" to="21" departPos="28.66" type="vehicle.gazelle.omafiets"/>
+    <trip id="veh71" depart="35.50" from="24" to="14" departPos="77.91" type="vehicle.diamondback.century"/>
+    <trip id="veh72" depart="36.00" from="24" to="25" departPos="58.25" type="vehicle.bh.crossbike"/>
+    <trip id="veh73" depart="36.50" from="9" to="0" departPos="25.99" type="vehicle.vespa.zx125"/>
+    <trip id="veh74" depart="37.00" from="25" to="14" departPos="28.10" type="vehicle.audi.a2"/>
+    <trip id="veh75" depart="37.50" from="24" to="-10" departPos="59.62" type="vehicle.audi.tt"/>
+    <trip id="veh76" depart="38.00" from="-24" to="-14" departPos="87.65" type="vehicle.bmw.grandtourer"/>
+    <trip id="veh77" depart="38.50" from="24" to="1" departPos="96.56" type="vehicle.chevrolet.impala"/>
+    <trip id="veh78" depart="39.00" from="23" to="1" departPos="17.01" type="vehicle.citroen.c3"/>
+    <trip id="veh79" depart="39.50" from="-14" to="24" departPos="2.80" type="vehicle.jeep.wrangler_rubicon"/>
+    <trip id="veh80" depart="40.00" from="-16" to="-24" departPos="12.27" type="vehicle.lincoln.mkz_2017"/>
+    <trip id="veh81" depart="40.50" from="-1" to="-14" departPos="33.82" type="vehicle.lincoln.mkz_2020"/>
+    <trip id="veh82" depart="41.00" from="24" to="14" departPos="6.68" type="vehicle.mercedes.coupe"/>
+    <trip id="veh83" depart="41.50" from="19" to="4" departPos="48.10" type="vehicle.mercedes.coupe_2020"/>
+    <trip id="veh84" depart="42.00" from="21" to="-14" departPos="7.11" type="vehicle.mercedes.sprinter"/>
+    <trip id="veh85" depart="42.50" from="-23" to="-14" departPos="3.78" type="vehicle.mini.cooper_s"/>
+    <trip id="veh86" depart="43.00" from="24" to="14" departPos="29.16" type="vehicle.mini.cooper_s_2021"/>
+    <trip id="veh87" depart="43.50" from="-7" to="-21" departPos="20.34" type="vehicle.ford.ambulance"/>
+    <trip id="veh88" depart="44.00" from="-14" to="22" departPos="0.51" type="vehicle.ford.mustang"/>
+    <trip id="veh89" depart="44.50" from="-7" to="-1" departPos="26.46" type="vehicle.nissan.micra"/>
+    <trip id="veh90" depart="45.00" from="17" to="-3" departPos="21.54" type="vehicle.nissan.patrol"/>
+    <trip id="veh91" depart="45.50" from="-9" to="14" departPos="21.08" type="vehicle.nissan.patrol_2021"/>
+    <trip id="veh92" depart="46.00" from="4" to="-3" departPos="111.17" type="vehicle.seat.leon"/>
+    <trip id="veh93" depart="46.50" from="18" to="21" departPos="26.24" type="vehicle.volkswagen.t2"/>
+    <trip id="veh94" depart="47.00" from="1" to="6" departPos="73.16" type="vehicle.dodge.charger_2020"/>
+    <trip id="veh95" depart="47.50" from="-10" to="14" departPos="14.32" type="vehicle.dodge.charger_police"/>
+    <trip id="veh96" depart="48.00" from="-14" to="-22" departPos="8.96" type="vehicle.dodge.charger_police_2020"/>
+    <trip id="veh97" depart="48.50" from="7" to="-2" departPos="24.65" type="vehicle.micro.microlino"/>
+    <trip id="veh98" depart="49.00" from="24" to="17" departPos="81.11" type="vehicle.toyota.prius"/>
+    <trip id="veh99" depart="49.50" from="5" to="18" departPos="225.15" type="vehicle.tesla.cybertruck"/>
+</routes>
