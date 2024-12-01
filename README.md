@@ -1,4 +1,4 @@
-# <i>CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception</i>
+# <i>CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception in mixed traffic</i>
 <strong>CoRTSG</strong> is a general and effective framework generating **risky testing scenarios** for **cooperative perception**. It's the ever-known first driving safety-oriented for cooperative perception in V2X environmnet. All things are done by data and priors and no training is required. The resulting risky concrete scenarios can be implemented in virtual or real enviroment for further testing or validation.
 
 ![The CoRTSG framework](./images/CoRTSG.png)
@@ -110,7 +110,7 @@ If you have any questions, feel free to open an issue.
 If you find our work useful in your research, feel free to give us a cite:
 ```BibTex
 @article{rongsong2024cortsg,
-      title={CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception}, 
+      title={CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception in mixed traffic}, 
       author={Rongsong Li and Xin Pei and Lu Xing},
       year={2024}
 }
