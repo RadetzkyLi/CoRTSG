@@ -43,8 +43,9 @@ To collect data at a map, e.g., Town01, you need to:
 #### launch CARLA
 Open a terminal and launch CARLA in server mode:
 ```
-export CUDA_VISIBLE_DEVICES=0   # specify the GPU you want to use
-${CARLA_HOME}/CarlaUE4.sh -carla-server -RenderOffScreen
+export CUDA_VISIBLE_DEVICES=0   # specify the GPU you want to use, keep the followng three number same
+export SDL_HINT_CUDA_DEVICE=0
+${CARLA_HOME}/CarlaUE4.sh -carla-server -RenderOffScreen -graphicsadapter=0
 ```
 in which ``${CARLA_HOME}`` is your CARLA's installation directory.
 

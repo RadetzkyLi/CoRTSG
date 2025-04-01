@@ -97,7 +97,7 @@ class CarlaSimulation(object):
 
         return True
     
-    def relaunch_carla_server(self):
+    def relaunch_carla_server(self, gpu_id:int):
         """After running for a long time, CARLA may encounter some problem and
         becomes slow. It's necessary to restart it.
         
@@ -108,10 +108,8 @@ class CarlaSimulation(object):
         os.system("pkill -9 CarlaUE4")
         time.sleep(5)
 
-        commands = "${CARLA_HOME}/CarlaUE4.sh -carla-server -RenderOffScreen -graphicsadapter=2 > ${CARLA_HOME}/carla.log 2>&1 &"
-        commands = "export CUDA_VISIBLE_DEVICES=2; export SDL_HINT_CUDA_DEVICE=2; " + commands  # use GPU 0
-        # commands = "${CARLA_HOME}/CarlaUE4.sh -carla-server -RenderOffScreen -graphicsadapter=3 > ${CARLA_HOME}/carla.log 2>&1 &"
-        # commands = "export CUDA_VISIBLE_DEVICES=3; export SDL_HINT_CUDA_DEVICE=3; " + commands  # use GPU 2
+        commands = "${CARLA_HOME}/CarlaUE4.sh -carla-server -RenderOffScreen -graphicsadapter={gpu_id} > ${CARLA_HOME}/carla.log 2>&1 &"
+        commands = "export CUDA_VISIBLE_DEVICES={gpu_id}; export SDL_HINT_CUDA_DEVICE={gpu_id}; " + commands  
 
         os.system(commands)
         time.sleep(20)

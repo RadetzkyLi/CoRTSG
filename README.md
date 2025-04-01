@@ -63,13 +63,13 @@ Upon this repo, [Multi-V2X](https://github.com/RadetzkyLi/Multi-V2X), a  multi-m
 
 Generators of 11 logical scenario (one for each functional scenario) had been completed and one can just run the following to repeat (if you want) the overtake scenario:
 ```
-cd CoRiskyScene/coriskyscene/scene_generation/generator
+cd CoRTSG/coriskyscene/scene_generation/generator
 
 python segment_overtake_scene_generator.py
 ```
-By default, the results would be saved in a ``.json`` file in ``CoRiskyScene/coriskyscene/scene_generation/data/``.
+By default, the results would be saved in a ``.json`` file in ``CoRTSG/coriskyscene/scene_generation/data/``.
 
-Note: the time axis is not considered and thus a concrete scenario is a scene in the context.
+**Note**: the time axis is not considered and thus a concrete scenario is a scene in the context.
 
 ### Risky scenario visualization
 
@@ -84,16 +84,14 @@ Modify the following variables in ``coriskyscene/scene_rendering/data_protocal.y
 
 Then, run:
 ```
-# use GPU 0
-export CUDA_VISIBLE_DEVICES=2
-export SDL_HINT_CUDA_DEVICE=2
-
 export CARLA_HOME="Your CARLA installation directory"
 
-cd CoRiskyScene/coriskyscene/scene_rendering
-python render_scene.py --carla-cfg-file data_protocal.yaml --scene-path ${YOUR_SCENE_PATH}
+cd CoRTSG/coriskyscene/scene_rendering
+python render_scene.py --carla-cfg-file data_protocal.yaml --scene-path ${YOUR_SCENE_PATH} --gpu-id ${GPU_ID}
 ```
-By default, ``${YOUR_SCENE_PATH}`` lies in ``CoRiskyScene/coriskyscene/scene_generation/data/``. One can have a try using ``example.json`` in this directory. 
+By default, ``${YOUR_SCENE_PATH}`` lies in ``CoRTSG/coriskyscene/scene_generation/data/``. One can have a try using ``example.json`` in this directory. 
+
+**Note**:  This ``${GPU_ID}`` may be inconsistent with results of ``nvidia-smi``, so try it manually on your server. (default: 3, GPU 0 on my server).
 
 ### Risky scenario-based testing
 

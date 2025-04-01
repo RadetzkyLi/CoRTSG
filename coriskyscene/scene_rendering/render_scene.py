@@ -47,6 +47,11 @@ def parse_args():
                            action='store_true',
                            help='If set all cars will be equipped with sensors and collecting data.'\
                             'Otherwise just run simulation. (default: False)')
+    argparser.add_argument('--gpu-id',
+                           default=3,
+                           type=int,
+                           help="The GPU you want CARLA launched on. This id may be inconsistent with"\
+                            "results of `nvidia-smi`, so try it manually on your server. (default: 3, GPU 0 on my server)")
     argparser.add_argument('--debug', action='store_true', help='enable debug messages')
     arguments = argparser.parse_args()
 
@@ -195,7 +200,7 @@ def run(args):
         # launch carla
         if num_rendered_scenes%relaunch_carla_every == 0:
             logger.info("Start (re)launching CARLA...")
-            carla_simulation.relaunch_carla_server()
+            carla_simulation.relaunch_carla_server(args.gpu_id)
             if not carla_simulation.init_carla():
                 logger.error("Fail to launch CARLA! Exit Rendering.")
                 break

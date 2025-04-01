@@ -1,4 +1,4 @@
-output_dir: 'V2xTestScenarios/'
+output_dir: 'CoRTSG/'
 cav_sensors: # sensors of CAV
   sensor_list:
     - name: 'rgb_camera'
