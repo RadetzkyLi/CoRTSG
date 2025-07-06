@@ -69,13 +69,15 @@ def get_rgb_camera_info(camera_instance, lidar_instance):
             }
         }
     """
-    mat_c2l = np.dot(np.array(camera_instance.sensor.get_transform().get_matrix()),
-                     np.array(lidar_instance.sensor.get_transform().get_inverse_matrix()))
+    world_to_camera = np.array(camera_instance.sensor.get_transform().get_inverse_matrix())
+    lidar_to_world = np.array(lidar_instance.sensor.get_transform().get_matrix())
+    mat_l2c = np.dot(world_to_camera, lidar_to_world)
+
     mat_in = camera_instance.get_intrinsic()
     info = {
         camera_instance.name: {
             "coords": carla_transform_to_list(camera_instance.transform),
-            "extrinsic": mat_c2l.tolist(),
+            "extrinsic": mat_l2c.tolist(),
             "intrinsic": mat_in.tolist()
         }
     }
