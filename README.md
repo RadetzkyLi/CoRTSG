@@ -5,7 +5,7 @@
 
 The preprint paper is published [here]().
 
-The generated and rendered concrete scenarios can be downloaded in [OpenDataLab](https://opendatalab.com/Rongsong/CoRTSG).
+The generated and rendered concrete scenarios can be downloaded in [OpenDataLab](https://opendatalab.com/Rongsong/CoRTSG). Update the dataset as [this](./docs/update_annotation.md) if you downloaded the non-fix version and would like to use camera's extrinsic.
 
 # Summary
 
@@ -34,7 +34,7 @@ These risky concrete scenarios had been rendered using [CARLA](https://carla.org
 ## Installation
 
 Clone this repo into your local machine and install it:
-```
+```bash
 cd scripts/
 git clone git@github.com:RadetzkyLi/CoRTSG.git
 
@@ -62,7 +62,7 @@ Upon this repo, [Multi-V2X](https://github.com/RadetzkyLi/Multi-V2X), a  multi-m
 **Second**: subclass ``BaseSceneGenerator`` or ``BaseSceneSequentialGenerator`` to create a generator that is responsible for generating concrete scenarios. 
 
 Generators of 11 logical scenario (one for each functional scenario) had been completed and one can just run the following to repeat (if you want) the overtake scenario:
-```
+```bash
 cd CoRTSG/coriskyscene/scene_generation/generator
 
 python segment_overtake_scene_generator.py
@@ -83,7 +83,7 @@ Modify the following variables in ``coriskyscene/scene_rendering/data_protocal.y
 - ``map_name``: change it to be consistent with risky traffic scenarios.
 
 Then, run:
-```
+```bash
 export CARLA_HOME="Your CARLA installation directory"
 
 cd CoRTSG/coriskyscene/scene_rendering
