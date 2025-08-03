@@ -99,7 +99,11 @@ Based on [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD), to let it suitable
 - compatible for various datasets. Now, [OPV2V](https://mobility-lab.seas.ucla.edu/opv2v/), [V2XSet](https://github.com/DerrickXuNu/v2x-vit), [V2V4Real](https://github.com/ucla-mobility/V2V4Real), [Multi-V2X](https://github.com/RadetzkyLi/Multi-V2X) and our [CoRTSG](https://github.com/RadetzkyLi/CoRTSG) are supported.
 - more metrics: accuracy, bandwith and safety gain are supported.
 
-The code has been integreted in https://github.com/RadetzkyLi/OpenCOOD. 
+To test the pretrained models on Multi-V2X, first download the model files and `pr_config_list_15k.json` from [OpenDataLab](https://opendatalab.com/Rongsong/Multi-V2X/tree/main/raw/weights). Then modify the associated `config.yaml`: replace `pr_setting.path` with your path of `pr_config_list_15k.json`. Run:
+```bash
+python ${OpenCOOD}/opencood/tools/inference.py --model_dir ${MODEL_DIR} --fusion_method ${FUSION_METHOD} --dataset_format "test" --dataset_root ${ROOT_DIR}
+```
+
 
 # Contact
 If you have any questions, feel free to open an issue.
@@ -107,9 +111,13 @@ If you have any questions, feel free to open an issue.
 # Citations
 If you find our work useful in your research, feel free to give us a cite:
 ```BibTex
-@article{rongsong2024cortsg,
-      title={CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception in mixed traffic}, 
-      author={Rongsong Li and Xin Pei and Lu Xing},
-      year={2024}
+@article{rongsong2025cortsg,
+  title={CoRTSG: A general and effective framework of risky testing scenario generation for cooperative perception in mixed traffic},
+  author={Li, Rongsong and Pei, Xin and Xing, Lu},
+  journal={Accident Analysis \& Prevention},
+  volume={220},
+  pages={108163},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
